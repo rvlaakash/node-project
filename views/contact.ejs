@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       
+        
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+        <%- include('header'); -%>
+        <!--<form method="post" action="/contact">
+          <b>Name : </b><input type="text" id="name" name="name"/>
+          <b>Email : </b><input type="email" id="email" name="email"/>
+          <input type="submit" name="submit" value="Submit"/>
+      </form>-->
+      <%- include('contact_form'); -%>
+       <br/><br/>
+        <center><%- include('data'); -%></center>
+    <%- include('footer'); -%>
+  </body>
+</html>
